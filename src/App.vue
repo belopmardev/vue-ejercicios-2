@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/goku">Goku</router-link> |
+    <router-link to="/kaioken">Kaio-ken</router-link>
   </div>
   <router-view/>
 </template>
@@ -26,5 +27,9 @@
       color: #42b983;
     }
   }
+}
+
+body{
+  background: linear-gradient(90deg, #fff 0%, #9AE2FF 100%);
 }
 </style>
